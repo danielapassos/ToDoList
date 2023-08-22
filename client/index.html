@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <script src="node_modules/web3/dist/web3.min.js"></script>
+
+</head>
+<body>
+    <h1>Buildooooor to-do list</h1>
+    <!-- We'll add more content here -->
+    <div id="loading" style="display: none;">Loading...</div>
+
+    <div id="taskList"></div>
+    <input type="text" id="newTask" placeholder="Enter new task...">
+    <button id="createTaskButton">Create Task</button>
+    <input type="text" id="updateTaskContent" placeholder="Update task content...">
+    <input type="number" id="updateTaskId" placeholder="Task ID to update">
+    <button id="updateTaskButton">Update Task</button>
+    <input type="number" id="completeTaskId" placeholder="Task ID to mark as completed">
+    <button id="completeTaskButton">Complete Task</button>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
